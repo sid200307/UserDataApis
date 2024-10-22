@@ -1,0 +1,21 @@
+REST API -JSON
+
+//in this call the raw data will be returned 
+//Frontend ull handle this on its way
+GET /api/users - List all users | JSON Data Will ber returned
+
+//TO det follwing data as per id 
+ 
+GET/user/1- Get the user with id 1
+GET/user/2- Get the user with id 2
+GET/user/3- Get the user with id 3
+
+//Dynamic Path Parameters
+GEt /api/users/:id
+:id - dynamic |Variable | it is feature of express
+
+//For this we are using postman
+POST/users -Creats new user
+POST/users/id -Edit the user with ID1
+
+DELETE /users/1 -delete the user with id 1
